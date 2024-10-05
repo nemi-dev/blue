@@ -1,0 +1,15 @@
+main {
+  width: clamp(420px, 60vw, 800px);
+  margin: auto;
+}
+
+main img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 240px;
+}
+
+main p {
+  margin: 0;
+}
