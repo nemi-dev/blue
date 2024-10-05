@@ -1,6 +1,7 @@
 main {
-  width: clamp(420px, 60vw, 800px);
+  width: clamp(360px, 50vw, 800px);
   margin: auto;
+  padding: 240px 0;
 }
 
 main img {
@@ -8,8 +9,10 @@ main img {
   margin: 0 auto;
   max-width: 100%;
   min-width: 240px;
+  padding-bottom: 120px;
 }
 
 main p {
   margin: 0;
+  height: 120px;
 }
