@@ -1,2 +1,1 @@
-# blue
-for nemi.blue
+Visit [nemi.blue/archive](https://nemi.blue/archive)
