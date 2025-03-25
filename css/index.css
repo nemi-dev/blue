@@ -1,0 +1,33 @@
+main {
+  width: clamp(300px, 60vw, 1000px);
+  margin: 0 auto;
+}
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.dcicon {
+  padding: 8px;
+}
+li {
+  display: flex;
+  align-items: stretch;
+}
+a {
+  transition: 0.1s ease-in-out;
+  transition-property: border, background-color;
+  border: 1px solid #ffffff00;
+}
+a:hover {
+  background-color: #ffffff20;
+  border: 1px solid #ffffff40;
+}
+a[href^="./"] {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
