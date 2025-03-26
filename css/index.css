@@ -1,5 +1,5 @@
 main {
-  width: clamp(300px, 60vw, 1000px);
+  width: clamp(400px, 60vw, 1000px);
   margin: 0 auto;
 }
 h1 {

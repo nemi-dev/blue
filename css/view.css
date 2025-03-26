@@ -1,7 +1,16 @@
+header {
+  position: sticky;
+  text-align: center;
+  font-size: 1.5rem;
+  top: 0;
+  padding-block: 0.5rem;
+  background-color: var(--back);
+}
+
 main {
   width: clamp(360px, 50vw, 800px);
   margin: auto;
-  padding: 240px 0;
+  padding-block: 60px 240px;
 }
 
 main img {

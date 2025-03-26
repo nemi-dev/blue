@@ -2,16 +2,29 @@
   outline: none;
 }
 
-html {
+:root {
   color-scheme: dark light;
+  --text: black;
+  --back: white;
+  color: var(--text);
+  background-color: var(--back);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: white;
+    --back: black;
+  }
 }
 
 body {
   margin: 0;
   padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .dcicon {
   width: 24px;
   vertical-align: middle;
 }
+
