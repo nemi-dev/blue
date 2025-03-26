@@ -9,10 +9,43 @@ main img {
   margin: 0 auto;
   max-width: 100%;
   min-width: 240px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 
 main p {
   margin: 0;
-  height: 120px;
+  min-height: 120px;
 }
+
+.t1 { padding-top: 1rem; }
+.t2 { padding-top: 2rem; }
+.t3 { padding-top: 3rem; }
+.t4 { padding-top: 4rem; }
+.t5 { padding-top: 5rem; }
+.t6 { padding-top: 6rem; }
+.t7 { padding-top: 7rem; }
+.t8 { padding-top: 8rem; }
+.t9 { padding-top: 9rem; }
+.t10 { padding-top: 10rem; }
+
+.b1 { padding-bottom: 1rem; }
+.b2 { padding-bottom: 2rem; }
+.b3 { padding-bottom: 3rem; }
+.b4 { padding-bottom: 4rem; }
+.b5 { padding-bottom: 5rem; }
+.b6 { padding-bottom: 6rem; }
+.b7 { padding-bottom: 7rem; }
+.b8 { padding-bottom: 8rem; }
+.b9 { padding-bottom: 9rem; }
+.b10 { padding-bottom: 10rem; }
+
+.p1 { padding-block: 1rem; }
+.p2 { padding-block: 2rem; }
+.p3 { padding-block: 3rem; }
+.p4 { padding-block: 4rem; }
+.p5 { padding-block: 5rem; }
+.p6 { padding-block: 6rem; }
+.p7 { padding-block: 7rem; }
+.p8 { padding-block: 8rem; }
+.p9 { padding-block: 9rem; }
+.p10 { padding-block: 10rem; }
