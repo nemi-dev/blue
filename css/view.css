@@ -21,7 +21,8 @@ main img {
   margin: 0 auto;
   max-width: 100%;
   min-width: 240px;
-  /* padding-bottom: 120px; */
+  height: auto;
+  padding-bottom: 60px;
 }
 
 main p {
@@ -61,3 +62,7 @@ main p {
 .p8 { padding-block: 8rem; }
 .p9 { padding-block: 9rem; }
 .p10 { padding-block: 10rem; }
+
+.placeholder {
+  max-width: 100%;
+}
