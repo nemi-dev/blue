@@ -17,14 +17,31 @@ li, header {
   display: flex;
   align-items: stretch;
 }
+
+header a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+}
+
 article {
   margin-block: 0.5rem;
-  padding: 1rem;
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
 }
 
 article img {
   max-width: 100%;
 }
+
+.upload-date {
+  opacity: 0.5;
+  font-weight: 100;
+  padding-inline-start: 1rem;
+}
+
 a {
   transition: 0.1s ease-in-out;
   transition-property: border, background-color;
